@@ -19,11 +19,11 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Sukhrob Tokhirov — Senior Software Engineer",
   description:
-    "Senior engineer with 3+ years building distributed systems and microservices in Java & Spring — geospatial driver-matching, real-time pricing, and billions of records on Oracle and ClickHouse.",
+    "Senior engineer with 4+ years building distributed systems and microservices in Java & Spring — geospatial driver-matching, real-time pricing, and billions of records on Oracle and ClickHouse.",
   openGraph: {
     title: "Sukhrob Tokhirov — Senior Software Engineer",
     description:
-      "Senior engineer with 3+ years building distributed systems and microservices in Java & Spring.",
+      "Senior engineer with 4+ years building distributed systems and microservices in Java & Spring.",
     type: "website",
   },
 };

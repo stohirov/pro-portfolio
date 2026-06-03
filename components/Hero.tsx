@@ -2,7 +2,7 @@ import { PROFILE } from "@/lib/data";
 import { MailIcon, PinIcon, ClockIcon, GithubIcon, LinkedinIcon } from "./icons";
 
 const LEDE_HTML =
-  "Senior engineer with <b>3+ years</b> building distributed systems and microservices in <b>Java &amp; Spring</b> — from geospatial driver-matching to billions of records on Oracle and ClickHouse. Active open-source contributor to <b>Spring AI</b> and <b>CatBoost</b>.";
+  "Senior engineer with <b>4+ years</b> building distributed systems and microservices in <b>Java &amp; Spring</b> — from geospatial driver-matching to billions of records on Oracle and ClickHouse. Active open-source contributor to <b>Spring AI</b> and <b>CatBoost</b>.";
 
 export default function Hero() {
   return (
