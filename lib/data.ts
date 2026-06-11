@@ -8,6 +8,8 @@ export const PROFILE = {
   email: "sukhrobtokhirov006@gmail.com",
   github: "github.com/stohirov",
   linkedin: "linkedin.com/in/sukhrobtokhirov",
+  codeforces: "codeforces.com/profile/sukhrob.java",
+  leetcode: "leetcode.com/u/tokhirovsukhrob",
   resume: "Sukhrob_Tokhirov_CV.pdf",
   available: "Open to Software Engineer roles",
 } as const;
@@ -27,7 +29,7 @@ export const EXPERIENCE: Job[] = [
     when: "Apr 2026 — Present",
     now: true,
     bullets: [
-      "Building and scaling the core parking-management platform.",
+      "Building and scaling the core parking-management platform — serving 400K+ monthly users in its first year.",
       "Architecting the microservices infrastructure and driving decisions on system design, stack and DevOps.",
     ],
   },
@@ -38,9 +40,10 @@ export const EXPERIENCE: Job[] = [
     now: false,
     bullets: [
       "Senior engineer on a ride-hailing platform (Uber / Yandex Go style) — geospatial matching, pricing and payments.",
-      "Designed an H3-based driver-matching engine, improving nearby-driver accuracy and latency at scale.",
+      "Designed an H3-based driver-matching engine — p95 match latency under 150ms with 25% better nearby-driver accuracy.",
       "Built a real-time Redis-backed surge-pricing system and Stripe Connect driver payouts.",
-      "Deployed 10+ microservices to AWS EKS with 90%+ test coverage.",
+      "Engineered the stateless auth layer (JWT + Redis sessions) — p99 logins under 500ms while sustaining 3,000 req/s peaks at 99.95% availability.",
+      "Deployed 40+ microservices to AWS EKS with 90%+ test coverage.",
     ],
   },
   {

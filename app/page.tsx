@@ -1,5 +1,6 @@
 import Topbar from "@/components/Topbar";
 import Hero from "@/components/Hero";
+import Ticker from "@/components/Ticker";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import OpenSource from "@/components/OpenSource";
@@ -13,6 +14,7 @@ export default function Home() {
       <Topbar />
       <main>
         <Hero />
+        <Ticker />
         <Experience />
         <Skills />
         <OpenSource />

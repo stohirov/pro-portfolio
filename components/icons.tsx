@@ -66,6 +66,30 @@ export const LinkedinIcon = () => (
   />
 );
 
+export const CodeforcesIcon = () => (
+  <Icon
+    fill
+    d={
+      <>
+        <rect x="3" y="10" width="4.6" height="10.5" rx="1.2" />
+        <rect x="9.7" y="3.5" width="4.6" height="17" rx="1.2" />
+        <rect x="16.4" y="7" width="4.6" height="13.5" rx="1.2" />
+      </>
+    }
+  />
+);
+
+export const LeetCodeIcon = () => (
+  <Icon
+    d={
+      <>
+        <path d="M14.5 4 7 11.4a3.4 3.4 0 0 0 0 4.8l3.2 3.2a3.4 3.4 0 0 0 4.8 0l1.7-1.6" />
+        <path d="M10.5 13.8H20" />
+      </>
+    }
+  />
+);
+
 export const DownloadIcon = () => (
   <Icon
     d={
