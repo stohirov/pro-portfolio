@@ -8,7 +8,7 @@ export const PROFILE = {
   email: "sukhrobtokhirov006@gmail.com",
   github: "github.com/stohirov",
   linkedin: "linkedin.com/in/sukhrobtokhirov",
-  codeforces: "codeforces.com/profile/sukhrob.java",
+  codeforces: "codeforces.com/profile/tokhirovsukhrob",
   leetcode: "leetcode.com/u/tokhirovsukhrob",
   resume: "Sukhrob_Tokhirov_CV.pdf",
   available: "Open to Software Engineer roles",
